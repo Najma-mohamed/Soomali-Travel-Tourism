@@ -21,10 +21,10 @@ const Secttion2 = () => {
 
     return (
         <>
-            <section className="bg-white mt-[500px] px-6 md:px-16">
+            <section className="bg-white mt-[400px] px-6 md:px-16">
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
 
-                    {/* Left Section - Title & Text */}
+
                     <div className="md:w-1/3 text-left">
                         <h4 className="text-gray-600 font-semibold uppercase tracking-wide">
                             Choose Your Place
@@ -37,7 +37,6 @@ const Secttion2 = () => {
                         </p>
                     </div>
 
-                    {/* Right Section - Destination Cards */}
                     <div className="md:w-2/3 flex gap-6">
                         {destinations.map((destination, index) => (
                             <div

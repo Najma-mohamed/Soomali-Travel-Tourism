@@ -17,7 +17,7 @@ const Secttion3 = (props) => {
                     <i className="fa-solid fa-star text-yellow-400 pl-1 pt-4"></i>
                     <i className="fa-solid fa-star text-yellow-400 pl-1 pt-4"></i>
                 </div>
-                <button className="bg-black w-40 h-8  text-white mt-2  rounded-2xl">Booking now</button>
+                <button className="bg-orange-500 w-40 h-8  text-white mt-2  rounded-2xl">Booking now</button>
             </div>
         </div>
 
