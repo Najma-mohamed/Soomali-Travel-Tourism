@@ -10,7 +10,7 @@ const About = () => {
           <h1 className=" font-serif font-semibold text-xl  ">Somali Travel <br /> <span className="text-yellow-600 text-sm pb">and  Tourism</span> </h1>
         </div>
 
-        <ul className="flex gap-7 pt-4 font-serif ">
+        <ul className="sm:flex hidden gap-7 pt-4 font-serif ">
           <Link to="/">   <li>Home</li></Link>
           <Link to="/About">   <li>About</li></Link>
           <li>package  <i class="fa-solid fa-chevron-down"></i></li>
@@ -21,28 +21,28 @@ const About = () => {
         <i class="fa-solid fa-magnifying-glass text-2xl pt-4"></i>
       </div>
 
-      <section className="flex justify-between px-52 py-12">
-          <div className="">
-            <img  src="https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg?auto=compress&cs=tinysrgb&w=600" className="w-[500px] h-[350px] rounded-tl-4xl rounded-br-4xl" alt="" />
-          </div>
-          <div className="w-[500px]">
-            <h1 className="text-3xl pb-2 font-semibold">About Tourism</h1>
-            <p className="text-gray-800">Tourism is the activity of traveling to different places for leisure, business, adventure, or cultural experiences.  It plays a significant role in economic growth, cultural exchange, and personal development.
+      <section className="sm:flex justify-between sm:px-52 px-12 py-12 sm:py-12">
+        <div className="">
+          <img src="https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg?auto=compress&cs=tinysrgb&w=600" className="w-[500px] h-[350px] rounded-tl-4xl rounded-br-4xl" alt="" />
+        </div>
+        <div className="w-80 sm:w-[500px]">
+          <h1 className="text-3xl sm:pb-2 pl-8 sm:pl-0 pb-4 sm:pt-0 pt-7 font-semibold">About Tourism</h1>
+          <p className="text-gray-800 sm:pl-0  ">Tourism is the activity of traveling to different places for leisure, business, adventure, or cultural experiences.  It plays a significant role in economic growth, cultural exchange, and personal development.
 
-              People travel for various reasons, including:
-              ✅ Leisure & Vacation - Relaxing on a beach or exploring a new city.
-              ✅ Business & Work -Attending meetings, conferences, or corporate trips.
-              ✅ Adventure & Sports  Hiking, diving, or extreme sports in different locations.
-              ✅ Cultural & Historical Exploration - Learning about different cultures, traditions, and heritage sites.</p>
+            People travel for various reasons, including:
+            ✅ Leisure & Vacation - Relaxing on a beach or exploring a new city.
+            ✅ Business & Work -Attending meetings, conferences, or corporate trips.
+            ✅ Adventure & Sports  Hiking, diving, or extreme sports in different locations.
+            ✅ Cultural & Historical Exploration - Learning about different cultures, traditions, and heritage sites.</p>
 
-              <button className="bg-orange-500 px-12 py-1 mt-10 text-white font-semibold rounded-lg text-xl">Read More</button>
-              <button className="bg-transparent px-12 mt-10 ml-12 border-2 border-orange-400 font-semibold rounded-lg text-xl">Read More</button>
-          </div>
-        </section>
+          <button className="bg-orange-500 px-12 py-1 sm:ml-0 ml-12 mt-10 text-white font-semibold rounded-lg text-xl">Read More</button>
+          <button className="bg-transparent px-12 sm:mt-10 mt-6 ml-12 border-2 border-orange-400 font-semibold rounded-lg text-xl">Read More</button>
+        </div>
+      </section>
 
       <div className="bg-gray-50">
-        {/* Our Services Section */}
-        <section className="py-16 px-6 md:px-20 text-center">
+        
+        <section className="sm:py-16 px-6 md:px-20 text-center">
           <h2 className="text-4xl font-bold text-gray-900">Our Services</h2>
           <p className="text-gray-600 mt-4 max-w-3xl mx-auto">
             Discover a world of adventure with our exclusive travel services.
@@ -61,7 +61,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Travel Gallery Section */}
+      
         <section className="py-16 px-6 md:px-20 text-center">
           <h2 className="text-4xl font-bold text-gray-900">Enjoy Your Journey 🚀</h2>
           <p className="text-gray-600 mt-4 max-w-3xl mx-auto">Unforgettable moments from our travel experiences worldwide.</p>
@@ -76,7 +76,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Why Choose Us Section */}
+       
         <section className="bg-gray-100 py-16 px-6 md:px-20 text-center">
           <h2 className="text-4xl font-bold text-gray-900">Why Choose Us?</h2>
           <p className="text-gray-600 mt-4 max-w-3xl mx-auto">
@@ -98,21 +98,20 @@ const About = () => {
 
 
 
-        {/* Subscription Section */}
-        <div className="bg-center bg-[url(https://images.pexels.com/photos/31048804/pexels-photo-31048804/free-photo-of-hiking-trail-in-ollantaytambo-peru-s-andes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] text-white py-10 text-center px-6">
-                <h2 className="text-4xl font-bold">Subscribe to get special price</h2>
-                <p className="mt-2 text-gray-300">Don’t wanna miss something? Subscribe right now and get <br /> special promotions and monthly newsletters. </p>
-
-               
-                <div className="mt-6 flex justify-center">
-                    <input type="email" placeholder="Type your email here" className="w-[450px] p-3 pl-5 bg-gray-300 rounded-full text-black focus:outline-none" />
-                    <button className="bg-black text-white px-6 h-10 ml-80 mt-1 mr-2 absolute rounded-full">Subscribe </button>
-                </div>
-            </div>
+        <div className="bg-center h-[370px] bg-[url(https://images.pexels.com/photos/31048804/pexels-photo-31048804/free-photo-of-hiking-trail-in-ollantaytambo-peru-s-andes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] text-white py-10  text-center px-6">
+          <h2 className="text-4xl font-bold">Subscribe to get special price</h2>
+          <p className="mt-2 text-gray-300">Don’t wanna miss something? Subscribe right now and get <br /> special promotions and monthly newsletters. </p>
 
 
-        {/* Footer */}
-        <footer className="bg-gray-900 mt-6 text-white py-12 px-6 md:px-20 text-center">
+          <div className="mt-6 flex justify-center">
+            <input type="email" placeholder="Type your email here" className="w-[450px] p-3 pl-5 bg-gray-300 rounded-full text-black focus:outline-none" />
+            <button className="bg-black text-white px-6 h-10 ml-52 sm:ml-80 mt-1 mr-2 absolute rounded-full">Subscribe </button>
+          </div>
+        </div>
+
+
+       
+        <footer className="bg-gray-900  text-white py-12 px-6 md:px-20 text-center">
           <div className="flex items-center justify-center gap-3">
             <i className="fa-solid fa-plane-departure text-yellow-600 text-4xl"></i>
             <h1 className="font-serif font-semibold text-xl">

@@ -21,7 +21,7 @@ const Secttion2 = () => {
 
     return (
         <>
-            <section className="bg-white mt-[400px] px-6 md:px-16">
+            <section className="bg-white sm:mt-[400px] mt- px-6 md:px-16">
                 <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
 
 
@@ -74,12 +74,12 @@ const Secttion2 = () => {
                 </div>
             </section>
 
-            <div className="flex justify-between px-16 mt-[50px] mb-12 ">
+            <div className="sm:flex justify-between pt-12 px-16 sm:mt-[50px] mb-12 ">
                 <div className="">
                     <h1 className="text-3xl font-bold pb-2">Popular Destination</h1>
                     <p className="font-serif text-gray-600">Despite challenges, Somalia is home to breathtaking beaches, historical sites,<br /> mountains, and cultural heritage  that make it a unique and <br /> hidden tourist gem in Africa.</p>
                 </div>
-                <button className="bg-orange-500 w-36 h-10 mt-20 font-semibold text-white rounded-full">Discover More</button>
+                <button className="bg-orange-500 sm:w-36 w-60 h-10 sm:mt-20 mt-12 font-semibold text-white rounded-full">Discover More</button>
             </div>
         </>)
 }

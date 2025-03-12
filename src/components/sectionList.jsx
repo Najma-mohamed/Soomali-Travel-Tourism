@@ -8,7 +8,7 @@ import img9 from "../assets/9.jpg"
 
 
 const SectionList =()=>{
-    return <div className="grid grid-cols-3  gap-5 px-32 py-10">
+    return <div className="sm:grid sm:grid-cols-3 px-4  gap-5 sm:px-32 py-10">
        <Secttion3 img={img1} Title="somalia" price="2500.00/2days" />
        <Secttion3 img={img2} Title="swiss" price="205.00/1day" />
        <Secttion3 img={img3} Title="thailand" price="2500.00/3days" />
