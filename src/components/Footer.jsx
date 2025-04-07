@@ -4,9 +4,9 @@ const Footer = () => {
     return (
         <footer className="bg-gray-100 sm:h-screen mt-10 text-gray-900">
 
-            <div className="bg-center h-[500px] bg-[url(https://images.pexels.com/photos/31048804/pexels-photo-31048804/free-photo-of-hiking-trail-in-ollantaytambo-peru-s-andes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] text-white text-center pt-48 px-6">
+            <div className="bg-center h-[500px] bg-[url(https://images.pexels.com/photos/31120801/pexels-photo-31120801/free-photo-of-scenic-beach-landscape-with-rocky-island.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] text-white text-center pt-48 px-6">
                 <h2 className="text-4xl font-bold">Subscribe to get special price</h2>
-                <p className="mt-2 text-gray-300">Don’t wanna miss something? Subscribe right now and get <br /> special promotions and monthly newsletters. </p>
+                <p className="mt-2 text-gray-100">Don’t wanna miss something? Subscribe right now and get <br /> special promotions and monthly newsletters. </p>
 
 
                 <div className="mt-6 flex justify-center">
@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
 
 
-            <div className="bg-gray-400 text-center py-4 text-gray-100">
+            <div className="bg-gray-400 text-center py-4 mt-7 text-gray-100">
                 <p>Copyright © All rights reserved (Website Developed & Managed by Najma & Aisha)</p>
             </div>
         </footer>

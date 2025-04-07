@@ -49,11 +49,11 @@ const Secttion4 = () => {
 
 
 
-            <div className="bg-center bg-no-repeat h-screen  bg-[url(https://images.pexels.com/photos/450441/pexels-photo-450441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)]">
+            <div className="bg-center bg-no-repeat h-screen  bg-[url(https://images.pexels.com/photos/951076/pexels-photo-951076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)]">
                 <div className="animate-pulse">
-                    <h1 className="text-2xl text-gray-300 pl-20 sm:pl-[650px] pt-12 sm:pt-52">Come & Join Us</h1>
+                    <h1 className="text-2xl text-gray-100 pl-20 sm:pl-[750px] pt-12 sm:pt-52">Come & Join Us</h1>
                     <p className="text-5xl font-extrabold pl-6 sm:pl-32 text-white pt-10">Come & Join Us Making Adventure Tours and Activities <br /> Accessible  and Affordable for Everyone.</p>
-                    <button className="px-12 h-10 rounded-lg mt-12 ml-4 sm:ml-[650px] bg-orange-500 hover:bg-black text-white font-semibold">Book Now</button>
+                    <button className="px-12 h-10 rounded-lg mt-12 ml-4 sm:ml-[750px] bg-orange-500 hover:bg-black text-white font-semibold">Book Now</button>
                 </div>
             </div>
         </>)

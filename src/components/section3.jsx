@@ -1,7 +1,7 @@
 const Secttion3 = (props) => {
     return (
         <>
-        <div className=" shadow-2xl  hover:border-2 hover:border-orange-600    pt-2 rounded-lg border-gray-500 w-[300px] h-[350px] mx-6 mb-3 font-semibold  ">
+        <div className=" shadow-2xl pt-2 rounded-lg border-gray-500 w-[300px] h-[350px] mx-6 mb-3 font-semibold  ">
 
             <img src={props.img} alt="" className="w-[300px] rounded-t-lg h-[150px]" />
             <div className="flex justify-between px-3 pt-3 text-black text font-semibold">

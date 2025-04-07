@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 const Contact = () => {
+    
     return (
         <div className="bg-gray-50">
 
@@ -13,7 +14,7 @@ const Contact = () => {
                 <ul className="sm:flex hidden gap-7 pt-4 font-serif ">
                     <Link to="/">   <li>Home</li></Link>
                     <Link to="/About">   <li>About</li></Link>
-                    <li>package  <i class="fa-solid fa-chevron-down"></i></li>
+                    <Link to="/packages" >  <li className="hover:text-amber-500">package</li> </Link> 
                     <li>Destination <i class="fa-solid fa-chevron-down"></i></li>
                     <li>Blog <i class="fa-solid fa-chevron-down"></i></li>
                     <Link to="/contact">   <li>Contact</li></Link>
